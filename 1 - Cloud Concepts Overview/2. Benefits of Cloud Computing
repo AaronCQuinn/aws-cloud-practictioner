@@ -1,0 +1,17 @@
+1. Trade capital expenditure for variable expense:
+- Cloud computing services typically only charge for the amount you consume, while traditionally a large upfront cost for a data center based on forecasting would be required.
+
+2. Economies of Scale:
+- The aggregation of hundreds of thousands of people using AWS means Amazon can leverage economies of scale, translating into lower prices for the end user. Much lower then you could achieve on your own.
+
+3. Stop guessing capacity:
+- No need to provision your own hardware to a very specific load level. Cloud computing allows your to scale your load demands on the fly.
+
+4. Increase speed and agility:
+- Turnaround time to implement something new becomes minutes instead of waiting days or weeks to acquire the physical hardware to implement.
+
+5. Allocation of resources:
+Abstracting away costs related to hardware, payroll, utilities, maintenance, security for a data center and place those resources back into focusing on your customers needs and wants.
+
+6. Go global in minutes:
+Data centers placed geographically around the globe allow you to deploy your application to multiple geographic regions in just a few clicks, providing lower latency and a better experience for your customers.

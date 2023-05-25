@@ -1,0 +1,13 @@
+What is a web service?
+- A piece of software that makes itself available over the internet (or private network).
+- Uses a standardized format for requests and response (XML, JSON) of an API.
+
+What is AWS?
+- Secure cloud platform offering broad cloud based products.
+- On-demand access to computer, storage, networking, database, other IT resources.
+- Pay for the individual services, as long as you use them.
+
+Three ways to interact with AWS:
+1. AWS Management Console (Graphical Interface within AWS platform)
+2. AWS CLI (manage servies with commands or scripts)
+3. SDK (Services directly from your code)

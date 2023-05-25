@@ -1,0 +1,24 @@
+What is Cloud Computing?
+- The on-demand delivery of compute power, databasing, storage, applications, and other IT resources via the internet with pay-as-you-go pricing.
+
+Traditional Vs. Cloud:
+- Traditional: 
+  1. You would need to provision you own hardware. Requires space, staff, security, planning, large upfront cost. 
+  2. Hardware procurement cycle is long (compared to cloud).
+  3. Requires theoretical guess work around load capacity. Too much and your hardware lies dormant providing no benefit, too little and you can't keep with customer demands and they receive sub-optimal service.
+  4. If your needs change, this cycle starts over and the planning, capital expenditure, and human resource are needed to reconfigure your hardware.
+- Cloud:
+  1. Enables you to think of infrastructure as software.
+  2. Your cloud hardware becomes incredibly flexible, enables the ability to provision, edit or remove hardware incredibly quickly with shorter term commitment.
+  3. Very little upfront cost with pay-as-you-go model.
+  4. Eliminates the entire procurement, maintenance, security for physical hardware.
+
+Types of cloud service models:
+  1. Infrastructure as a service - IaaS
+  2. Platform as a service - PaaS
+  3. Software as a service - SaaS
+
+Types of cloud computing deployment models:
+  1. Cloud
+  2. Hybrid
+  3. On-premis (private-cloud)
