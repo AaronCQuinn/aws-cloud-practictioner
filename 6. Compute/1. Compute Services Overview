@@ -1,0 +1,25 @@
+What is Amazon EC2 (Elastic Compute Cloud)?
+- Resizeable virtual machines.
+- IaaS, leaves many of the server management responsibilities with the user.
+- Choice of OS, and size of resource capabilities available.
+
+What is AWS Lambda?
+- Zero administration compute platform.
+- Enables you to run instances of code without provisioning or managing servers.
+- Pay for the compute time consumed.
+
+AWS Container Services:
+1. Amazon ECS
+2. Amazon EKS
+3. AWS Fargate
+4. Amazon ECR
+
+What is AWS Elastic Beanstalk?
+- PaaS for web applications.
+- AWS manages the OS, application server and other infracstructure.
+- User only needs to provide their application's codebase.
+
+How to choose your optimal compute service?
+1. What is your application design?
+2. What are your usage patterns?
+3. What configuration settings will you need or want to manage?

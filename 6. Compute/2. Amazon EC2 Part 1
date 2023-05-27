@@ -1,0 +1,68 @@
+Common use cases for EC2 Instances:
+1. Application Servers
+2. Web Servers
+3. Database Servers
+
+EC2 allows you to launch any number of instances, of any size, in any availability zone in the matter of minutes.
+
+Nine key decisions when launching an EC2 instance:
+1. AMI - Which amazon machine image will you launch with the instance? AMI is a template that contains Windows or Linux, and oftentimes has software pre-installed.
+    AMI Choices:
+        1. Quick Start - Windows / Linux provided by AWS.
+        2. My AMI - AMI provided by the user.
+        3. AWS Marketplace - Pre-configured templates from 3rd parties
+        4. Community AMI - AMIs shared by others (used at own risk)
+
+2. Instance Type - Reflect the combination of CPU, memory, storage, and networking capacity.
+    Instance type catagories:
+        1. General purpose - Broad
+        2. Compute optimized - High performance
+        3. Memory optimized - In-memory database
+        4. Storage optimized - Distributed file systems
+        5. Accelerated computing - Machine learning 
+
+3. Network settings
+- AWS allows you to specific the network location where the EC2 instance will be deployed.
+
+4. IAM Role
+- IAM roles delegate access to users, applications or services that don't normally have open access to your AWS resources.
+- Determine if software on the EC2 instance will interact with other AWS services, if so it will need the appropriate IAM role. 
+- You should never store AWS credentials on the EC2 instance.
+
+5. User Data
+- Automate the completion of installations and configurations at instance launch.
+- User data scripts customize the runtime environment of your instance.
+- By default, these scripts only run the first time the instance starts, near the end of the initial startup.
+
+6. Storage Options
+- Configuration of the root volume 
+- Optionally attach additional sorage volumes
+    - For each volume, you can specify the size of the disk, volume type (SSD, HDD), if the volume should be deleted when the instance is terminated, optional encryption.
+
+7. Tags
+- Label you can assign to AWS resource.
+- Key, value pair.
+- Attach metadata to an EC2 instance.
+- By developing a tagging strategy, it allows for easier control of your instance cluster. For example, filtering, automation, cost allocation, access control.
+
+8. Security Group
+- Set of firewall rules that control traffic to the instance.
+- Exists outside of the instance's OS.
+- Create rules that specify the source and which ports that network communications can use.
+
+9. Key pair
+- At instance launch, users will specific and existing key pair or create a new one.
+- Consists of a public (AWS stores this) & private key (User stores this).
+- Enables secure connections to the instance.
+
+Amazon EC2 storage options:
+Instance stores are good options for cacheing for example, do not rely on instance stores for long term valuable data.
+1. Elastic Block Store (EBS):
+    - Block level storage volumes.
+    - Data persists if the instance stops and starts.
+2. Instance Store:
+    - Disks attached to the host computer where the EC2 is running.
+    - Data is lost when the instance stops.
+3. Outside the root volume:
+    1. Elastic File System (Amazon EFS)
+    2. Simple Storage Service (S3)

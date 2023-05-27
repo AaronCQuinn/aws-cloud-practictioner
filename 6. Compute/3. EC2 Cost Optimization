@@ -1,0 +1,13 @@
+Four Pillars of Cost Optimization:
+    1. Right Size - The right balance of instance types.
+        - Use metrics to determine utilization and downsize where possible.
+    2. Increase Elasticity - Implement deployments that are elastic, reduce the amount of server capacity that sits idle.
+        - Stop or hibernate instances not actively in use (production, test environments for example).
+        - Implement automatic scaling to match usage needs.
+    3. Optimal Pricing Model - Analyze pricing so that you can run EC2 instances with the right mix of pricing options.
+        - Consider serverless solutions (Lambda).
+        - Leverage the right pricing model for your use case (Consider usage patterns)
+    4. Optimize Storage Choice - Reduce unused storage, choose less expensive storage options if they can meet your requirements.
+        - Resize EBC volumes
+        - Delete EBS snapshots / backups that are no longer needed
+        - Identify appropriate destinations for specific types of data that can live on less expensive storage
